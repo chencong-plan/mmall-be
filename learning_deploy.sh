@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 echo "===========进入git项目dianpoint目录============="
-cd /developer/git-repository/mmall_learning
-
+cd /developer/git-repository/mmall-be
 
 echo "==========git切换master==============="
 git checkout master
@@ -23,11 +22,11 @@ rm /developer/$1/webapps/ROOT.war
 
 
 echo "======拷贝编译出来的war包到tomcat下-ROOT.war======="
-cp /developer/git-repository/mmall_learning/target/mmall.war  /developer/$1/webapps/ROOT.war
+cp /developer/git-repository/mmall-be/target/mmall.war  /developer/$1/webapps/ROOT.war
 
 
 echo "============删除tomcat下旧的ROOT文件夹============="
-rm -rf /developer/$2/webapps/ROOT
+rm -rf /developer/$1/webapps/ROOT
 
 
 
