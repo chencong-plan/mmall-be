@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by geely
+ * @author chencong
  */
 
 @Controller

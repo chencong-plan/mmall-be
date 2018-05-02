@@ -3,7 +3,7 @@ package com.mmall.util;
 import java.math.BigDecimal;
 
 /**
- * Created by geely
+ * @author chencong
  */
 public class BigDecimalUtil {
 

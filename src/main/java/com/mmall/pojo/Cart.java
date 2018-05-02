@@ -9,7 +9,9 @@ import lombok.ToString;
 
 import java.util.Date;
 
-
+/**
+ * @author chencong
+ */
 @Getter
 @Setter
 @NoArgsConstructor

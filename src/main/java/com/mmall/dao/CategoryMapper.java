@@ -4,6 +4,9 @@ import com.mmall.pojo.Category;
 
 import java.util.List;
 
+/**
+ * @author chencong
+ */
 public interface CategoryMapper {
     int deleteByPrimaryKey(Integer id);
 

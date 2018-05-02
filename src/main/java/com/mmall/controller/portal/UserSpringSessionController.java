@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * Created by geely
+ * @author chencong
  */
 @Controller
 @RequestMapping("/user/springsession/")

@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by geely
+ * @author chencong
  */
 @Slf4j
 public class FTPUtil {

@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
- * Created by geely
+ * @author chencong
  */
 public class SessionExpireFilter implements Filter {
     @Override

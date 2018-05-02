@@ -4,7 +4,7 @@ import com.mmall.common.ServerResponse;
 import com.mmall.vo.CartVo;
 
 /**
- * Created by geely
+ * @author chencong
  */
 public interface ICartService {
     ServerResponse<CartVo> add(Integer userId, Integer productId, Integer count);

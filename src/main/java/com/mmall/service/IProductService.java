@@ -6,7 +6,7 @@ import com.mmall.pojo.Product;
 import com.mmall.vo.ProductDetailVo;
 
 /**
- * Created by geely
+ * @author chencong
  */
 public interface IProductService {
 

@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.Properties;
 
 /**
- * Created by geely
+ * @author chencong
  */
 @Slf4j
 public class PropertiesUtil {

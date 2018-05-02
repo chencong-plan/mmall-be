@@ -5,6 +5,9 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
+/**
+ * @author chencong
+ */
 public interface ProductMapper {
     int deleteByPrimaryKey(Integer id);
 

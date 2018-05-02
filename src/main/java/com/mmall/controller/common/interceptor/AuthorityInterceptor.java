@@ -21,7 +21,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * Created by geely
+ * @author chencong
  */
 @Slf4j
 public class AuthorityInterceptor implements HandlerInterceptor{

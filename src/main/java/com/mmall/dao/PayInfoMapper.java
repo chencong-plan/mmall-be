@@ -2,6 +2,9 @@ package com.mmall.dao;
 
 import com.mmall.pojo.PayInfo;
 
+/**
+ * @author chencong
+ */
 public interface PayInfoMapper {
     int deleteByPrimaryKey(Integer id);
 
