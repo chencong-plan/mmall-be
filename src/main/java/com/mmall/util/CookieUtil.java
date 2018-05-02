@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 @Slf4j
 public class CookieUtil {
 
-    private final static String COOKIE_DOMAIN = ".happymmall.com";
+    private final static String COOKIE_DOMAIN = ".dianpoint.com";
     private final static String COOKIE_NAME = "mmall_login_token";
 
 
@@ -31,12 +31,12 @@ public class CookieUtil {
         return null;
     }
 
-    //X:domain=".happymmall.com"
-    //a:A.happymmall.com            cookie:domain=A.happymmall.com;path="/"
-    //b:B.happymmall.com            cookie:domain=B.happymmall.com;path="/"
-    //c:A.happymmall.com/test/cc    cookie:domain=A.happymmall.com;path="/test/cc"
-    //d:A.happymmall.com/test/dd    cookie:domain=A.happymmall.com;path="/test/dd"
-    //e:A.happymmall.com/test       cookie:domain=A.happymmall.com;path="/test"
+    //X:domain=".dianpoint.com"
+    //a:A.dianpoint.com            cookie:domain=A.dianpoint.com;path="/"
+    //b:B.dianpoint.com            cookie:domain=B.dianpoint.com;path="/"
+    //c:A.dianpoint.com/test/cc    cookie:domain=A.dianpoint.com;path="/test/cc"
+    //d:A.dianpoint.com/test/dd    cookie:domain=A.dianpoint.com;path="/test/dd"
+    //e:A.dianpoint.com/test       cookie:domain=A.dianpoint.com;path="/test"
 
     public static void writeLoginToken(HttpServletResponse response,String token){
         Cookie ck = new Cookie(COOKIE_NAME,token);
