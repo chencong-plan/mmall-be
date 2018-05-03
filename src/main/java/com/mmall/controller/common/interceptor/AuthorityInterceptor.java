@@ -2,6 +2,7 @@ package com.mmall.controller.common.interceptor;
 
 import com.google.common.collect.Maps;
 import com.mmall.common.Const;
+import com.mmall.common.ResponseCode;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 import com.mmall.util.CookieUtil;
@@ -89,7 +90,7 @@ public class AuthorityInterceptor implements HandlerInterceptor{
                     resultMap.put("msg","请登录管理员");
                     out.print(JsonUtil.obj2String(resultMap));
                 }else{
-                    out.print(JsonUtil.obj2String(ServerResponse.createByErrorMessage("拦截器拦截,用户未登录")));
+                    out.print(JsonUtil.obj2String(ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),"拦截器拦截,用户未登录")));
                 }
             }else{
                 if(StringUtils.equals(className,"ProductManageController") && StringUtils.equals(methodName,"richtextImgUpload")){

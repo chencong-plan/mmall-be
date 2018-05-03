@@ -20,7 +20,7 @@ mvn clean package -Dmaven.test.skip=true -Pprod
 echo "============删除旧的ROOT.war==================="
 rm /developer/$1/webapps/ROOT.war
 
-
+clea
 echo "======拷贝编译出来的war包到tomcat下-ROOT.war======="
 cp /developer/git-repository/mmall-be/target/mmall.war  /developer/$1/webapps/ROOT.war
 
