@@ -25,12 +25,6 @@ public class ProductController {
     private IProductService iProductService;
 
 
-    @RequestMapping(value = "{productId}",method = RequestMethod.GET)
-    @ResponseBody
-    public ServerResponse<ProductDetailVo> getDetail(@PathVariable("productId") Integer productId){
-        return iProductService.getProductDetail(productId);
-    }
-
 
     @RequestMapping("detail.do")
     @ResponseBody

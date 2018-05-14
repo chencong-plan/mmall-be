@@ -80,7 +80,7 @@ public class UserController {
     }
 
 
-    @RequestMapping(value = "{userId}", method = RequestMethod.POST)
+    @RequestMapping(value = "{userId}", method = RequestMethod.GET)
     @ResponseBody
     public ServerResponse<User> getUserInfoRESTful(HttpServletRequest httpServletRequest, @PathVariable("userId") Integer userId) {
 
