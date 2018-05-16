@@ -2,9 +2,6 @@
 
 <html>
 <body>
-<h2>Tomcat1!</h2>
-<h2>Tomcat1!</h2>
-<h2>Tomcat1!</h2>
 <h2>Hello World!</h2>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 
